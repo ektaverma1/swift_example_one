@@ -23,5 +23,9 @@ class ViewController: UIViewController {
             userIsInTheMiddleOfTypingANumber = true
         }
     }
+    
+    @IBAction func enter() {
+        userIsInTheMiddleOfTypingANumber = false
+    }
 }
 
